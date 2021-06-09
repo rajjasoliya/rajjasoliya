@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.index-content{
+    position: absolute;
+    width:67%;
+    height:75%;
+    margin:0;
+    padding:0;
+}
+.content{
+    position: absolute;
+    width:67%;
+    height:75%;
+    margin:0;
+    padding:0;
+}
+.post{
+    display: flex;
+    width:100%;
+    box-shadow: 0 5px 10px #f4b11f;
+    border-radius: 10px;
+    padding:20px;
+    margin-left: 10%;
+
+}
+.post-img{
+    width:300px;
+    height:300px;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+.post-txt{
+    text-align: left;
+    margin-left: 80px;
+    margin-top:150px;
+}
+.post-title{
+    text-decoration: none;
+    color:#f4b11f;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.post-constrains{
+    display:flex;
+    font-size: 14px;
+    line-height: 5px;
+    margin-top:15px;
+    color:#8a7d62
+}
+.post-category {
+    color:#ecd29e;
+    text-decoration: none;
+    padding:5px;
+    margin:5px;
+}
+.post-author{
+    
+    color:#8a7d62;
+    text-decoration: none;
+    padding:5px;
+    margin:5px;    
+}
+.post-date{
+    color:#8a7d62;
+    text-decoration: none;
+    padding:5px;
+    margin:5px;
+}
+.post-desc{
+    color:#5c4005;
+    font-size: 18px;
+    line-height: 20px;
+    padding:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.post-read_more-btn{
+    margin: 3px;
+    padding:7px;
+    font-size: 15px;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    background-color: #f4b11f;
+    font-weight: bold;
+    float:left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h2{
+    color:red;
+    
+}
+a{
+cursor: pointer;
+}
+.pages{
+    text-align: center;
+    font-size: 20px;
+    background-color: #f4b11f;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    margin:10px;
+    border-radius: 5px;
+}
